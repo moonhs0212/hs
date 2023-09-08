@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wev_img_icon_cardtag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_cardtag1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_disconnectconnector_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_disconnectconnector_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_cardtag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_cardtag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_connectconnector_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_connectconnector_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_btn_back_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_btn_back_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB0EvEnergy_Machine_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB0EvEnergy_Machine_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_background_bright2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_background_bright2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_disconnect_connector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_disconnect_connector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_inlet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_inlet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB0EvEnergy_Machine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB0EvEnergy_Machine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB4EvEnergy_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB4EvEnergy_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back_white_clicked1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back_white_clicked1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_btn_home_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_btn_home_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_confirm_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_confirm_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_btn_home_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_btn_home_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_charging_unit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_charging_unit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_connectconnector_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_connectconnector_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_disconnectconnector_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_disconnectconnector_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB4EvEnergy_open1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB4EvEnergy_open1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PBBOX1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PBBOX1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_btn_back_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_btn_back_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB5T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB5T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_disconnectconnector_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_disconnectconnector_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back_white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back_white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_electric_whiteoutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_electric_whiteoutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_circleprogress_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_circleprogress_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_kiosk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_gun_j1772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_gun_j1772.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_wev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_wev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_chargerinfor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_chargerinfor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_logo_touch_screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_logo_touch_screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_horizontal_img_btn_membertype_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_horizontal_img_btn_membertype_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_cardtag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_cardtag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_btn_keypad_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_btn_keypad_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_circleprogress_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_circleprogress_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_logo_usecomplete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_logo_usecomplete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_circleprogress_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_circleprogress_00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_connectconnector_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_connectconnector_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WeatherBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeatherBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_background_touch_screen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_background_touch_screen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_btn_chargingstop_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_btn_chargingstop_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PBBOX2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PBBOX2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_btn_back_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_btn_back_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_confirm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_confirm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_electric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progresscircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progresscircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_confirm_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_confirm_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_elelectric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_elelectric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB0DAppBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB0DAppBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_circleprogress_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_circleprogress_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_btn_back_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_btn_back_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_connectconnector_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_connectconnector_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB4_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB4_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_disconnectconnector_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_disconnectconnector_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_member_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_member_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_background_bright1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_background_bright1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_confirm_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_confirm_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PBQR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PBQR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_chargingspeed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_chargingspeed1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_nonmember_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_nonmember_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB4EvEnergy_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB4EvEnergy_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_btn_home_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_btn_home_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modify_design_220824-b-modify.1029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modify_design_220824-b-modify.1029.tif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 255.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_connectconnector_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_connectconnector_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_disconnectconnector_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_disconnectconnector_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_disconnectconnector_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_disconnectconnector_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_connectconnector_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_connectconnector_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_circleprogress_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_circleprogress_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_back_white_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_back_white_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_socket_charging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_socket_charging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_btn_keypad_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_btn_keypad_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_normal_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_normal_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_connectconnector_011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_connectconnector_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_nonmember_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_nonmember_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_logo_wev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_logo_wev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB4EvEnergy_bin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB4EvEnergy_bin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_background_bright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_background_bright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_alarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_confirm_clicked1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_confirm_clicked1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PB1icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PB1icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_btn_member_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_btn_member_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_horizontal_img_btn_membertype_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_horizontal_img_btn_membertype_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1080_1920_ad_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1080_1920_ad_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_icon_connect_connector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_icon_connect_connector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardtag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardtag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_btn_home_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_btn_home_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_electric1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_electric1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_socket_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_socket_error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev_img_btn_chargingstop_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev_img_btn_chargingstop_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_progress_disconnectconnector_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_progress_disconnectconnector_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_progress_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_progress_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_connectconnector_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_connectconnector_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wev02_img_icon_connectconnector_blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wev02_img_icon_connectconnector_blank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NanumSquareNeo_Variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NanumSquareNeo-Variable.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
